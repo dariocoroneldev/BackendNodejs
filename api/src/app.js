@@ -16,6 +16,7 @@ class App {
     this.server.use(Sentry.Handlers.requestHandler());
     this.middleware();
     this.routes();
+    this.exeptionHandler();
   }
 
   middleware() {
